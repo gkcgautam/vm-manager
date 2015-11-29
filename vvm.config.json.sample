@@ -1,0 +1,20 @@
+{
+    "work_vm" : {
+        "name" : "WorkUbuntuVMServer",
+        "username" : "gautam",
+        "hostname" : "localhost",
+        "ssh_port" : 2222,
+        "mount_point_remote" : "/home/gautam/workspace/",
+        "mount_point_host" : "/Users/gautam/work_vm_workspace",
+        "mount_delay" : 15
+    },
+    "personal_vm" : {
+        "name" : "PersonalUbuntuServer",
+        "username" : "gautam",
+        "hostname" : "localhost",
+        "ssh_port" : 2200,
+        "mount_point_remote" : "/home/gautam/workspace/",
+        "mount_point_host" : "/Users/gautam/personal_vm_workspace",
+        "mount_delay" : 10
+    }
+}
