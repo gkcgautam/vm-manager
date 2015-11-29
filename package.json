@@ -1,0 +1,45 @@
+{
+  "name": "vm-manager",
+  "version": "0.1.0",
+  "description": "A command-line tool for controlling and mounting VirtualBox VMs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "vmm": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkcgautam/vm-manager.git"
+  },
+  "keywords": [
+    "virtualbox",
+    "vm",
+    "sshfs",
+    "mount"
+  ],
+  "author": {
+    "name": "Gautam Chaudhary",
+    "email": "gkcgautam@gmail.com",
+    "url": "gautamchaudhary.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gkcgautam/vm-manager/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/gkcgautam/vm-manager/issues"
+  },
+  "homepage": "https://github.com/gkcgautam/vm-manager#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "file-exists": "^1.0.0",
+    "jsonfile": "^2.2.3",
+    "shelljs": "^0.5.3",
+    "underscore": "^1.8.3"
+  }
+}
