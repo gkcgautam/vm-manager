@@ -1,6 +1,6 @@
 {
   "name": "vm-manager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A command-line tool for controlling and mounting VirtualBox VMs",
   "main": "index.js",
   "scripts": {

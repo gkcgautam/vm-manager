@@ -23,7 +23,7 @@ program
             return;
         }
 
-        var configFilePath = getUserHome() + '/vvm.config.json';
+        var configFilePath = getUserHome() + '/vmm.config.json';
         if (!fileExists(configFilePath)) {
             console.error(makeErrorMsg('Could not find config file ', configFilePath));
             return;
